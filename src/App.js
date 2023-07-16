@@ -10,45 +10,6 @@ import Popup from './components/Popup/Popup';
 import { addIdEmails } from './utils/helper.js'
 import './App.css';
 
-const DEFAULT_FOLDERS_LIST = [
-  // {
-  //   id: 1,
-  //   name: 'Sushi',
-  //   level: 0,
-  //   sub_folders: [{
-  //     name: 'Schnitzel',
-  //     level: 1,
-  //     sub_folders:   [{
-  //         name: 'Schnitzel2',
-  //         level: 2,
-  //       },
-  //       {
-  //         name: 'Schnitzel3',
-  //         level: 2,
-  //       }]
-  //   }]
-  // },
-  // {
-  //   name: 'Sushi2',
-  //   level: 0,
-  // },
-  // {
-  //   name: 'Sushi3',
-  //   level: 0,
-  //   sub_folders:  [{
-  //       name: 'Custom1',
-  //       level: 1,
-  //     },
-  //     {
-  //       name: 'Custom2',
-  //       level: 1,
-  //     }]
-  // },
-  // {
-  //   name: 'Sushi4',
-  //   level: 0,
-  // },
-];
 
 function App() {
   
@@ -56,7 +17,7 @@ function App() {
   const [isDefaultFolder, setDefaultFolder] = useState(true);
   const [folderEmailList, setFolderEmailList] = useState([]);
   const [activeFolder, setActiveFolder] = useState('inbox');
-  const [customFolderList, setCustomFolder] = useState(DEFAULT_FOLDERS_LIST);
+  const [customFolderList, setCustomFolder] = useState([]);
   const [parentFolder, setParentFolder] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -124,7 +85,6 @@ useEffect(() => {
   
   const handleCreateFolder = item => {
 
-    console.log(item);
     setParentFolder(item)
     togglePopup()
   };
@@ -159,29 +119,23 @@ useEffect(() => {
   }
   
   const handleDragStart = (e) => {
-    // console.log("start drag")
-    console.log("drag from===",e.target.dataset.id, e.target.dataset.folderkey);
     setDragEmailId(e.target.dataset.id)
     setEmailFolderKey(e.target.dataset.folderkey)
     
   };
   
   const onDragLeave = (e) => { 
-    console.log("drag to===",e.target.dataset.id);
     setDragToFolderId(e.target.dataset.id)
   }
   
   const onDragLeaveElsewhere = (e) => { 
-    console.log("drag eleswhere to===",e.target.dataset.id);
     setDragToFolderId(e.target.dataset.id)
   }
   
   const handleDragEnd = (e) => {
 
-    console.log("end drag", dragEmailFolderKey)
     const list = emailList
     const index = emailList.findIndex(email => email.id === dragEmailId);
-    console.log("dragToFolderId===", dragToFolderId)
     if(!dragToFolderId) return
     let strDragToFolderId = dragToFolderId.toString()
 
@@ -192,7 +146,6 @@ useEffect(() => {
     list[index].folder_key=strDragToFolderId
     setEmails(list)
     filterFolderEmailList()
-    console.log("index===", index)
     
   };
   const handleOnUnarchived = (id) => {

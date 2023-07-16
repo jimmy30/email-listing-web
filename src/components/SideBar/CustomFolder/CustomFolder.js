@@ -11,7 +11,6 @@ const CustomFolder = ({activeCustomFolderHandler, togglePopup, customFolderList,
 
   useEffect(() => {
       const flatArray = flatFolderArrayObject(customFolderList)
-      console.log(flatArray)
       setFolderList(flatArray)
   }, [customFolderList])
   
