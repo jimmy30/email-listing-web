@@ -1,0 +1,54 @@
+.emailRow {
+  display: flex;
+  padding: 8px;
+  font-weight: bold;
+  border-bottom: solid #cccccc;
+  justify-content: center;
+    @media (max-width: 1024px) {
+      display: block;
+  }
+}
+.emailRowRead {
+  display: flex;
+  padding: 8px;
+  border-bottom: solid #cccccc;
+  background-color: #eeeeee;
+  justify-content: center;
+  @media (max-width: 1024px) {
+    display: block;
+  }
+}
+.emailRowImportant {
+  cursor: pointer;
+  padding: 2px;
+  color: #f7c200;
+  @media (max-width: 1024px) {
+    float: left;
+}
+}
+.emailRowFrom {
+  min-width: 270px;
+}
+.emailRowTo {
+  min-width: 270px;
+}
+.emailRowSubject {
+  flex: 1;
+}
+.unarchived {
+  cursor: pointer;
+  @media (max-width: 1024px) {
+    margin-top: -20px;
+    float: right;
+}
+}
+.attachIcon {
+  padding-right: 10px;
+  @media (max-width: 1024px) {
+    margin-top: -20px;
+    margin-right: 20px;
+    float: right;
+}
+}
+
+

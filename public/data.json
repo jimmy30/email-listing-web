@@ -1,0 +1,259 @@
+[
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom1@email.com dummyfrom1@email.com dummyfrom1@email.com",
+      "to": "dummyto1@email.com",
+      "subject": "PKR 100 per excess km, PKR 100 per excess km, PKR 100 per excess km, PKR 100 per excess km, PKR 100 per excess km, PKR 100 per excess km",
+      "is_important": true,
+      "is_read": false,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": false,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": false
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": true,
+      "is_read": true,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"sent",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": true,
+      "is_read": true,
+      "has_attachment": false
+    },
+    {
+      "folder_key":"sent",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"draft",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"archived",
+      "ref_folder": "inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": true
+    },
+    
+    
+    
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom1@email.com",
+      "to": "dummyto1@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": true,
+      "is_read": false,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": false,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": false
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": true,
+      "is_read": true,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom1@email.com",
+      "to": "dummyto1@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": true,
+      "is_read": false,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": false,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": false
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": true,
+      "is_read": true,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom1@email.com",
+      "to": "dummyto1@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": true,
+      "is_read": false,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": false,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": false
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": true,
+      "is_read": true,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": false,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": false
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": false
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": false
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": true
+    },
+    {
+      "folder_key":"inbox",
+      "from": "dummyfrom3@email.com",
+      "to": "dummyto3@email.com",
+      "subject": "PKR 100 per excess km",
+      "is_important": false,
+      "is_read": true,
+      "has_attachment": false
+    }
+
+]

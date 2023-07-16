@@ -1,0 +1,6 @@
+.folder {
+  cursor: pointer;
+}
+.selected {
+  background-color: #cccccc
+}

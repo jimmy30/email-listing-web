@@ -1,0 +1,12 @@
+.header{
+  display: flex;
+  padding: 10px;
+}
+.logo img{
+  width: 30px;
+  padding-right: 10px;
+}
+.header h1{
+  font-size: 20px;
+  margin: 0;
+}

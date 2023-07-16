@@ -1,0 +1,11 @@
+.folders {
+  margin-top: 20px;
+}
+.folders label {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.addFolderIcon {
+  cursor: pointer;
+}

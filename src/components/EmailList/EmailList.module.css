@@ -1,0 +1,7 @@
+.emailList {
+  padding: 10px;
+  flex: 1;
+  background-color: #ffffff;
+  height: calc(100vh - 90px);
+  overflow: auto;
+}

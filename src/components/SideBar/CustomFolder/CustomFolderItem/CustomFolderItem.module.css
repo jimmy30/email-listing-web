@@ -1,0 +1,25 @@
+.folder {
+  display: flex;
+}
+.folder div{
+  padding: 5px;
+  cursor: pointer;
+}
+.selected {
+  background-color: #cccccc
+}
+.level0 {
+  padding-left: 0;
+}
+.level1 {
+  padding-left: 10px;
+}
+.level2 {
+  padding-left: 20px;
+}
+.folderName {
+  flex:1
+}
+.createSubFolder {
+  cursor: pointer;
+}

@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  background-color: #eeeeee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.AppBody{
+  display: flex;
+  padding: 10px;
 }
 
 .App-logo {
@@ -34,5 +41,23 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.inputField{
+  width: 100%;
+  height: 25px
+}
+.errorInput{
+  color: red
+}
+.button{
+  
+}
+
+.Bar{
+  padding-left: 10px;
+  display: none;
+  @media (max-width: 768px) {
+    display: inline;
   }
 }
